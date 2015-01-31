@@ -1,4 +1,5 @@
-#include <NazaDecoderLib.h>
+#include "NazaDecoderLib.h"
+#include "frsky_sport.h"
 
 // By default the course over ground from GPS will be used. Uncomment the line below to use magnetometer heading instead (not recommended when using Serial adapter as it will not be tilt compensated).
 //#define USE_COMPASS_HEADING
