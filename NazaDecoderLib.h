@@ -21,9 +21,9 @@
 #define NAZA_MESSAGE_GPS     0x10
 #define NAZA_MESSAGE_COMPASS 0x20
 
-#if defined(__MK20DX128__) || defined(__MK20DX256__)
-  #define ATTITUDE_SENSING_DISABLED
-#endif
+//#if defined(__MK20DX128__) || defined(__MK20DX256__)
+//  #define ATTITUDE_SENSING_DISABLED
+//#endif
 
 class NazaDecoderLib
 {
